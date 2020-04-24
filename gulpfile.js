@@ -15,6 +15,7 @@ gulp.task('default', gulp.series('clean-dest', function () {
   const processors = [
     advancedVariables({
       unresolved: 'ignore', // ignore unresolved variables
+      disable: '@mixin, @include, @content, @import' // ignore @mixin, @include, and @content at-rules
     }),
     unprefix,
     removePrefixes,

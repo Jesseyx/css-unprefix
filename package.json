@@ -1,0 +1,21 @@
+{
+  "name": "css-unprefix",
+  "version": "1.0.0",
+  "description": "Replace old scss grammar",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-html-postcss": "^7.1.4",
+    "postcss-advanced-variables": "^3.0.1",
+    "postcss-remove-prefixes": "^1.2.0",
+    "postcss-unprefix": "^2.1.4"
+  },
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Jesseyx",
+  "license": "MIT"
+}
